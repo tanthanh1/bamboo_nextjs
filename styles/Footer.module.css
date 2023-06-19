@@ -1,0 +1,78 @@
+
+
+.footer{
+    background-color: var(--primary-color);
+    border-top: 64px solid #000;
+}
+
+.footer_inner{
+    width: 960px;
+    max-width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color:  rgba(255,255,255,.4);
+}
+
+.email{
+    color: rgba(255,255,255,.8);
+    letter-spacing: 2px;
+    /* padding-top: 60px; */
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.footer  h2.office_hours{
+    font-size: 22px;
+    margin-top: 60px;
+    margin-bottom: 4px;
+    font-weight: 400;
+}
+
+.open_day {
+    margin-top: 28px;
+    
+}
+
+.open_day h3{
+    font-size: 16px;
+    line-height: 2.2;
+    /* margin: 16px 0 8px; */
+}
+
+
+.footer table th{
+    font-size: 16px;
+    line-height: 2.2;
+    text-align: left;
+    font-weight: 400;
+}
+
+
+.footer table th + th {
+    padding-left: 32px;
+}
+
+.address{
+    margin-top: 40px;
+    text-align: center;
+    font-size: 32px;
+
+}
+
+.contact{
+    margin-top: 60px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 2.6;
+}
+
+.hr{
+    margin-top: 60px;
+    background-color: rgba(255,255,255,.4);
+  
+    height: 1px;
+    
+}

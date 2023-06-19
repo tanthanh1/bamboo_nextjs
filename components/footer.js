@@ -1,0 +1,61 @@
+import styles from '../styles/Footer.module.css'
+
+const Footer = () => {
+  return (
+    <footer className={styles.footer}>
+    <div className={styles.footer_inner}>               
+            <p className={styles.email}>HOLISTICCHIRO1@GMAIL.COM</p>
+
+            <h2 className={styles.office_hours}>GIỜ LÀM VIỆC:</h2>
+            <div className={styles.open_day}>
+
+                <table>
+                <tbody>
+                    <tr>
+                      <th>THỨ HAI:</th>
+                      <th>1PM-7PM</th>
+                    </tr>
+                    <tr>
+                      <th>THỨ BA:</th>
+                      <th>1PM-7PM</th>
+                    </tr>
+                    <tr>
+                      <th>THỨ TƯ:</th>
+                      <th>CLOSED</th>
+                    </tr>
+                    <tr>
+                      <th>THỨ NĂM:</th>
+                      <th>CLOSED</th>
+                    </tr>
+                    <tr>
+                      <th>THỨ SÁU:</th>
+                      <th>1PM-7PM</th>
+                    </tr>
+                    <tr>
+                      <th>THỨ BẢY:</th>
+                      <th>1PM-7PM</th>
+                    </tr>
+                    <tr>
+                      <th>CHỦ NHẬT:</th>
+                      <th>1PM-7PM</th>
+                    </tr>
+                    </tbody>
+                  </table>
+
+            </div>
+    
+            <p className={styles.address} >Địa chỉ:&nbsp; &nbsp; &nbsp;170/5 Bùi Đình Tuý, p12, Bình Thạnh</p>
+            
+            <div className={styles.hr}></div>
+    
+            <div className={styles.contact}>
+                <p>Contact info:   </p>
+                <p>phone:  037-915-1714</p>
+                <p>email:  holisticbamboo@gmail.com</p>
+            </div>              
+    </div>
+
+</footer>
+  )
+}
+export default Footer

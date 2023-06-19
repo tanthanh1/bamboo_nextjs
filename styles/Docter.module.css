@@ -1,0 +1,50 @@
+.content{
+    width: 960px;
+    max-width: 90%;
+    margin: 96px auto;
+    animation: feature-text-anim 0.25s ease-in-out;
+    /* height: calc(100vh - 34px); */
+    /* border-bottom: 50px solid #000; */
+}   
+
+.content h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.content h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    margin-top: 14px;
+}
+
+.image_wrapper {
+    margin-top: 36px;
+}
+
+.content img{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.content p{
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 1.6em;
+    color: rgba(26,26,26,.7);
+    margin-bottom: 16px;
+}

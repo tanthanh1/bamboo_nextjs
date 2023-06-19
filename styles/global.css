@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,400&family=EB+Garamond:ital@0;1&display=swap');
+
+:root {
+    --primary-color: #80ab54;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.web_wrapper{
+    transition: all 0.25s ease;
+    
+}
+
+.web_wrapper.transform{
+    transform: translateX(-260px);
+    transition: all 0.25s ease;
+}
+
+
