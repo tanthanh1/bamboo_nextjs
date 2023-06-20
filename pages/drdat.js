@@ -2,7 +2,7 @@ import {useState,useRef} from 'react'
 import Footer from '../components/footer'
 import Header from '../components/header'
 import Navbar from '../components/navbar'
-import Docter from '../components/docter'
+import Doctor from '../components/doctor'
 import Script from 'next/script'
 
 
@@ -51,12 +51,9 @@ export default  function HomePage(){
             {/* <div className="web_wrapper transform"> */}
             
             <Header isActive= {showMenu} onShow={()=>setShowMenu(true)}/>
-
-            <Docter>
-
-            </Docter>
-  
-
+            <Doctor name="DAT CHIROPRACTOR">
+                <h3>Đang cập nhật...</h3>
+            </Doctor> 
             
             {/* <ul>
                 {names.map((name)=>(
