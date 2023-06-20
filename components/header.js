@@ -6,28 +6,56 @@ import {useState} from 'react'
 
 import Link from 'next/link'
 
-const header = ({isActive,onShow}) => {
+const header = ({isActive,onShow,home=false}) => {
 
 
   return (
-    <header className={styles.header}>
-    <div className={styles.header_inner}>
-        <div className={styles.logo}>
-            <Link href="/">BAMBOO HEALTHCARE</Link>
+    <>
+    {!home ?
+      ( <header className={styles.header}>
+        <div className={styles.header_inner}>
+            <div className={styles.logo}>
+                <Link href="/">BAMBOO HEALTHCARE</Link>
+            </div>
+    
+            <div className={styles.hamburger} onClick={onShow}>
+                {isActive ?
+                <FaTimes className={styles.fa}/> :
+                <FaBars className={styles.fa}/>   
+                }    
+    
+            </div>
         </div>
-
-        <div className={styles.hambuger} onClick={onShow}>
-            {isActive ?
-            <FaTimes className={styles.fa}/> :
-            <FaBars className={styles.fa}/>       
-            }                      
-            {/* <FaXmark className={styles.fa}/> */}
+        </header>) :
+      (<header className={`${styles.header} ${styles.home_page}`}>
+        <div className={styles.header_inner}>
+            <div className={styles.logo}>
+                <Link href="/">BAMBOO HEALTHCARE</Link>
+            </div>
+    
+            <div className={styles.hamburger} onClick={onShow}>
+                {isActive ?
+                <FaTimes className={styles.fa}/> :
+                <FaBars className={styles.fa}/>   
+                }    
+    
+            </div>
+            
+        </div>
+        <div className={styles.hero}>
+                <h1>chăm sóc bạn bằng đôi tay hiểu biết</h1>
+                  <p>Bạn xứng đáng được sống một cuộc sống sôi động, không đau đớn và chúng tôi ở đây để giúp bạn biến điều đó thành hiện thực! <strong>Chiropractic</strong> là một cách an toàn, không xâm lấn và tự nhiên để giúp bạn đạt được sức khỏe tối ưu cho cá nhân mình.</p>                  
+                {/* <a href="#!">ĐẶT LỊCH →</a> */}
+       </div>
   
-            {/* <i className={styles.fa-solid fa-xmark hidden} id="close"></i> */}
-            {/* <i className={styles.fa-sharp fa-solid fa-bars} id="open"></i> */}
-        </div>
-    </div>
-    </header>
+        <div className={styles.overlay}></div>
+        </header>)
+      
+    }
+
+
+    </>
+    
   )
 }
 export default header

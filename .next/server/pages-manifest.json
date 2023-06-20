@@ -2,7 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/": "pages/index.js",
   "/drlong": "pages/drlong.js",
-  "/drdat": "pages/drdat.js",
-  "/": "pages/index.js"
+  "/drdat": "pages/drdat.js"
 }

@@ -1,8 +1,24 @@
-.header {
-    
+/* CSS Header */
+
+.header {    
     background-color: var(--primary-color);
     /* height:60px; */
 }
+
+.header.home_page{
+    height: 100vh;
+    position: relative;
+    background-color: rgba(0,0,0,0.3);
+    background-image: url("/images/scott-webb-186137.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    transition: all 0.25s ease;
+}
+
+
+
+
+
 .header_inner{   
     max-width: 95%;
     margin: 0 auto;
@@ -20,11 +36,12 @@
     letter-spacing: 2px;
 }
 
-.hambuger{
+/*  CSS hamburger */
+.hamburger{
     position: relative;
 }
 
-.hambuger:hover{
+.hamburger:hover{
     cursor: pointer;
 }
 
@@ -36,7 +53,7 @@
     font-size: 24px;
 }
 
-h.hambuger i{
+h.hamburger i{
     position: absolute;
     right:0;
     top:-4px;
@@ -44,11 +61,95 @@ h.hambuger i{
     font-size: 24px;
 }
 
-.hambuger i.hidden{    
+.hamburger i.hidden{    
     display: none;        
 }
 
 
-.hambuger i:hover{
+.hamburger i:hover{
     cursor: pointer;
 }
+
+
+/* CSS Header HomePage */
+
+.hero {
+    margin: auto;
+    max-width: 956px;
+    width: 100%;
+    animation: feature-text-anim 0.5s ease-in-out;
+}
+
+.header h1{
+    font-family: 'Montserrat', sans-serif;
+
+    margin-top: 120px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+   
+    text-transform: uppercase;
+    line-height: 1.6;
+    transform: translateZ(0);
+    transition: all 0.25s ease ;
+    z-index: -2;
+    /* animation: slideInFromtLeft 1.5s ease-in; */
+    
+}
+
+
+.hero p{
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+    /* padding: 0 200px; */
+    line-height: 1.9;
+    font-size: 22px;
+}
+
+.hero a{
+    display: block;
+    max-width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 16px 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+   
+    
+}
+
+.hero strong{
+    background-color: var(--primary-color);
+    padding: 0 2px;
+    /* color: red !important; */
+}
+
+
+@keyframes feature-text-anim{
+    0%{
+        opacity: 0;
+ 
+        transform: translate3d(0,10px,0);
+    }
+
+    75%{
+        opacity: 0;
+        transform: translate3d(0,10px,0);
+    }
+    100%{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+
+  }

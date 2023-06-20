@@ -19,8 +19,6 @@ export default  function HomePage(){
 
     const [showMenu, setShowMenu]= useState(false)   
 
-    const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
-    const [likes,setLikes] =useState(0)  
     const showNavbar = useRef(false) 
     // console.log('shownav',showNavbar.current)
     // showNavbar.current=true
