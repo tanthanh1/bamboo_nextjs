@@ -3,6 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/drlong": "pages/drlong.js",
-  "/drdat": "pages/drdat.js"
+  "/datlich": "pages/datlich.js",
+  "/drdat": "pages/drdat.js",
+  "/drlong": "pages/drlong.js"
 }
