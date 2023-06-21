@@ -155,6 +155,33 @@ h.hamburger i{
 
   }
 
+@media (max-width:900px){
+    .hero{
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .hero h1{
+        font-size: 28px;
+        
+    }
+
+    .hero p{
+        font-size: 18px;
+    }
+
+
+    .header {
+
+        
+        background-position-x: 55%;
+        background-position-y: center;
+        /* background-attachment: fixed; */
+  
+    
+    }
+}
+ 
 @media(max-width:640px){
 
 
@@ -171,6 +198,10 @@ h.hamburger i{
 .hero p{
     font-size: 18px;
 }
+
+
+
+
 
 
 .header.home_page{

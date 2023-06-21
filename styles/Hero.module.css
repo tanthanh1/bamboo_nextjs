@@ -59,6 +59,17 @@
         
   }
 
+
+@media (max-width:900px){
+    .section_a_grid{
+        
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+   
+}
+
+
   @media(max-width:640px){
 
   .section_a_grid {
