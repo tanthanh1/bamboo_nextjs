@@ -24,7 +24,7 @@
 }
 
 
-.footer  h2.office_hours{
+.footer  .office_hours{
     font-size: 22px;
     margin-top: 60px;
     margin-bottom: 4px;
@@ -76,3 +76,48 @@
     height: 1px;
     
 }
+
+
+@media(max-width:640px){
+
+
+    .footer .email{
+        display: none;
+    }
+
+    .footer .address{
+        font-size: 28px ;
+        line-height: 1.4;
+    }
+
+    .footer .office_hours, 
+    .footer .open_day {
+        text-align: center;
+    }
+
+
+    .footer table{
+        display: inline-block;
+    }
+
+    
+
+
+
+
+    .footer .footer_inner{
+        padding-top: 40px;
+    }
+
+    .footer .office_hours{
+        margin-top: 0 ;
+    }
+
+
+     .hr{
+        margin-top: 40px ;
+    }
+     .contact{
+        margin-top: 40px ;
+    }
+  }

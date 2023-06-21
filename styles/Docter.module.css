@@ -48,3 +48,20 @@
     color: rgba(26,26,26,.7);
     margin-bottom: 16px;
 }
+
+
+
+@media(max-width:640px){
+
+    .content{
+        margin: 56px auto;
+    }
+    
+    .content img{
+        width: 100%;
+        float: none;
+        margin-bottom: 12px;
+        
+    }
+
+}
