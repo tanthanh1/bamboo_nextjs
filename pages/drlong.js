@@ -63,12 +63,7 @@ export default  function HomePage(){
                 <p>Anh Long đảm nhận vai trò chuyên viên trị liệu Cơ Xương Khớp, bao gồm thăm khám, chẩn đoán, tư vấn và thực hiện điều trị cho khách hàng. Một số vấn đề của khách hàng anh thường gặp như: thoát hoá đốt sống, viêm khớp, đau mỏi cổ vai gáy, thắt lưng, chấn thương thể thao...                     
                 </p>
             </Doctor> 
-            
-            {/* <ul>
-                {names.map((name)=>(
-                    <li key={name}>{name}</li>                        
-                ))}
-            </ul> */}         
+       
             <Footer />
             </div>
 

@@ -2,6 +2,7 @@
 
 .header {    
     background-color: var(--primary-color);
+
     /* height:60px; */
 }
 
@@ -154,40 +155,41 @@ h.hamburger i{
 
   }
 
-  @media(max-width:640px){
+@media(max-width:640px){
+
+
+.hero{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.hero h1{
+    font-size: 28px;
+    
+}
+
+.hero p{
+    font-size: 18px;
+}
+
+
+.header.home_page{
 
     
-    .hero{
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
-    .hero h1{
-        font-size: 28px;
-        
-    }
-
-    .hero p{
-        font-size: 18px;
-    }
+    background-position-x: 55%;
+    background-position-y: center;
+    /* background-attachment: fixed; */
 
 
-    .header {
+}
 
-        
-        background-position-x: 55%;
-        background-position-y: center;
-        /* background-attachment: fixed; */
-  
+
+.header .logo a{
+    font-size: 16px;
+}
+
+.header .header_inner{
+    max-width: 90%;
     
-    }
-
-
-    .header .logo a{
-        font-size: 16px;
-    }
-
-    .header .header_inner{
-        max-width: 90%;
-    }
-  }
+}
+}

@@ -58,3 +58,20 @@
         color:#000;
         
   }
+
+  @media(max-width:640px){
+
+  .section_a_grid {
+    display:block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section_a_grid .grid_item{
+    margin-bottom: 20px;
+}
+
+.section_a .title{
+    font-size: 22px;
+}
+}
