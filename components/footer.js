@@ -13,23 +13,23 @@ const Footer = () => {
                 <tbody>
                     <tr>
                       <th>THỨ HAI:</th>
-                      <th>9PM-17PM</th>
+                      <th>9AM-17PM</th>
                     </tr>
                     <tr>
                       <th>THỨ BA:</th>
-                      <th>9PM-17PM</th>
+                      <th>9AM-17PM</th>
                     </tr>
                     <tr>
                       <th>THỨ TƯ:</th>
-                      <th>9PM-17PM</th>
+                      <th>9AM-17PM</th>
                     </tr>
                     <tr>
                       <th>THỨ NĂM:</th>
-                      <th>9PM-17PM</th>
+                      <th>9AM-17PM</th>
                     </tr>
                     <tr>
                       <th>THỨ SÁU:</th>
-                      <th>9PM-17PM</th>
+                      <th>9AM-17PM</th>
                     </tr>
                     <tr>
                       <th>THỨ BẢY:</th>
