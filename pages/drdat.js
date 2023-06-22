@@ -50,7 +50,17 @@ export default  function HomePage(){
             
             <Header isActive= {showMenu} onShow={()=>setShowMenu(true)}/>
             <Doctor name="DAT CHIROPRACTOR">
-                <h3>Đang cập nhật...</h3>
+                <img src="/images/dat.jpg" alt="" />
+                <p>-	Cử nhân HLTT trường ĐH TDTT TP.HCM<br />
+-	Thạc sĩ GDTC trường ĐH TDTT TP.HCM<br />
+-	Y sĩ YHCT trường Trung cấp Y dược Vạn Hạnh<br />
+-	Kinh nghiệm trên 5 năm nghề trị liệu
+</p>
+                <p>Với lợi thế nền tảng kiến thức về y học TDTT, vận động học TDTT và y học cổ truyền cộng với niềm đam mê trong việc mang lại sức khoẻ cho mọi người bằng những phương pháp trị liệu tự nhiên hiệu quả nhất, giúp mọi người có được chất lượng cuộc sống tốt nhất đã tạo động lực rất lớn cho tôi vững bước trên con đường tìm tòi học hỏi để hoàn thiện mình hơn trên con đường trị liệu tự nhiên. </p>
+                <p>Bén duyên với trị liệu từ năm 2017, sau nhiều năm mày mò, may mắn được tiếp cận với những kiến thức, phương pháp trị liệu tự nhiên hiện đại nhất hiện nay trên thế giới như: Chiropractic (trị liệu thần kinh cột sống), Mulligan, Gonstead, Kinesiology, Kinesio Tape,… mang lại hiệu quả cao trong việc trị liệu các chứng bệnh liên quan đến sai lệch cấu trúc cơ thể như: mất cân bằng tư thế, đau mỏi cổ vai gáy, thắt lưng, đau đầu/nửa đầu, mất ngủ, thoát vị đĩa đệm, trật khớp, lệch đốt sống, chấn thương thể thao, hồi phục sau tập luyện…</p>
+                <p>Luôn tối ưu hoá việc trị liệu bằng cách tìm ra gốc bệnh, ưu tiên áp dụng các phương pháp trị liệu tự nhiên an toàn, hiệu quả nhất. Với sự nỗ lực hết mình trong mỗi buổi trị liệu tôi luôn tin tưởng sẽ mang đến cho khách hàng những trải nghiệm tốt nhất, giúp cơ thể phục hồi nhanh nhất giúp khách hàng tối ưu được chất lượng cuộc sống của mình.</p>
+
+      
             </Doctor> 
             
             {/* <ul>

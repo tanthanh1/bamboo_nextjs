@@ -15,7 +15,9 @@ const header = ({isActive,onShow,home=false}) => {
       ( <header className={styles.header}>
         <div className={styles.header_inner}>
             <div className={styles.logo}>
-                <Link href="/">BAMBOO HEALTHCARE</Link>
+              <img src="/images/logo1.png" alt=""/>
+            
+              <Link href="/">BAMBOO HEALTHCARE</Link>
             </div>
     
             <div className={styles.hamburger} onClick={onShow}>
@@ -30,6 +32,7 @@ const header = ({isActive,onShow,home=false}) => {
       (<header className={`${styles.header} ${styles.home_page}`}>
         <div className={styles.header_inner}>
             <div className={styles.logo}>
+                <img src="/images/logo1.png" alt=""/>
                 <Link href="/">BAMBOO HEALTHCARE</Link>
             </div>
     

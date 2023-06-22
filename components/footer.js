@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
     <div className={styles.footer_inner}>               
-            <p className={styles.email}>HOLISTICCHIRO1@GMAIL.COM</p>
+            <p className={styles.email}>holisticbamboo@gmail.com</p>
 
             <h2 className={styles.office_hours}>GIỜ LÀM VIỆC:</h2>
             <div className={styles.open_day}>
